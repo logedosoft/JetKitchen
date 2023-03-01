@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jetkitchen *.css
+recursive-include jetkitchen *.csv
+recursive-include jetkitchen *.html
+recursive-include jetkitchen *.ico
+recursive-include jetkitchen *.js
+recursive-include jetkitchen *.json
+recursive-include jetkitchen *.md
+recursive-include jetkitchen *.png
+recursive-include jetkitchen *.py
+recursive-include jetkitchen *.svg
+recursive-include jetkitchen *.txt
+recursive-exclude jetkitchen *.pyc
