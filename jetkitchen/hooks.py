@@ -3,7 +3,7 @@ from . import __version__ as app_version
 app_name = "jetkitchen"
 app_title = "Jet Kitchen"
 app_publisher = "Logedosoft Business Solution"
-app_description = "Kitchen manufacturing management app"
+app_description = "Industrial kitchen manufacturing"
 app_email = "info@logedosoft.com"
 app_license = "MIT"
 
@@ -97,6 +97,9 @@ app_license = "MIT"
 # override_doctype_class = {
 #	"ToDo": "custom_app.overrides.CustomToDo"
 # }
+override_doctype_class = {
+	"Request for Quotation": "jetkitchen.overrides.request_for_quatation.CustomRFQ"
+}
 
 # Document Events
 # ---------------
